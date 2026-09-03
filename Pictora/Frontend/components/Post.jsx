@@ -1,7 +1,7 @@
-function post() {
+function Post() {
     return(
-        <div></div>
+        <div>post</div>
     );
 }
 
-export default post;
+export default Post;

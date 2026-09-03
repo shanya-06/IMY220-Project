@@ -1,4 +1,4 @@
-function signin() {
+function SignIn() {
     return(
         <form action="">
             <label>username</label>
@@ -7,4 +7,4 @@ function signin() {
     );
 }
 
-export default signin;
+export default SignIn;

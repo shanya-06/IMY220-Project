@@ -1,10 +1,10 @@
 import SignIn from "../components/SignIn.jsx";
 
-
-function splashpage(){
+function SplashPage(){
     return(
         <main>
             <h1>Welcome to Pictora!</h1>
+            {/*put logo pic here*/}
             <p>Log in to to continue your story.</p>
             <p>Not a member? Sign up now to join the crew!</p>
 
@@ -14,4 +14,4 @@ function splashpage(){
     );
 }
 
-export default splashpage;
+export default SplashPage;

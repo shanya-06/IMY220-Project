@@ -1,7 +1,7 @@
-function post() {
+function PostDetails() {
     return(
         <div>post details</div>
     );
 }
 
-export default post;
+export default PostDetails

@@ -8,7 +8,7 @@ function Nav(){
                 <span id="logo">- logo here -</span>
                 <h2>Pictora</h2>
             </span>
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
                 <Link to="/search">Search </Link>
                 <Link to="/profile/:id">Profile</Link>
             
