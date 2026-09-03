@@ -90,6 +90,7 @@ h2 {
   @media (max-width: 1024px) {
     font-size: 20px;
   }
+  color: #342c45;
 }
 p {
   margin: 0;
