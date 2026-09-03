@@ -1,4 +1,4 @@
-function signup() {
+function signUp() {
     return(
         <form>
             <input type="text" >name</input>
@@ -7,4 +7,4 @@ function signup() {
     );
 }
 
-export default signup;
+export default signUp;

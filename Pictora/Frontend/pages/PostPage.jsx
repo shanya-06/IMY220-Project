@@ -1,5 +1,5 @@
 import Nav from "../components/Nav.jsx";
-import Post from "../components/PostDetails.jsx";
+import PostDetails from "../components/PostDetails.jsx";
 
 function PostPage() {
     return (
