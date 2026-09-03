@@ -1,5 +1,5 @@
 import SignIn from "../components/SignIn.jsx";
-
+import Signup from "../components/signup.jsx";
 function SplashPage(){
     return(
         <main>
@@ -9,6 +9,7 @@ function SplashPage(){
             <p>Not a member? Sign up now to join the crew!</p>
 
             <SignIn />
+            <Signup />
 
         </main>
     );
