@@ -66,7 +66,7 @@ function SignUp() {
                 const data = await response.json();
                 setSuccess(data.message || "Signup successful!");
 
-                navigate(`/home?id=1`)
+                navigate(`/home`)
             } catch (err) {
             setError("Error connecting to server");
         }
@@ -101,7 +101,7 @@ function SignUp() {
 
             <button type="submit">Submit</button>
         </form>
-    );
+    ); 
 }
 
 export default SignUp;

@@ -10,7 +10,8 @@ function Nav(){
             </span>
                 <Link to="/home">Home</Link>
                 <Link to="/search">Search </Link>
-                <Link to="/profile/:id">Profile</Link>
+                <Link to="/profile/101">Profile</Link>
+                <Link to="/post/2">Post</Link>
             
         </nav>
     );
