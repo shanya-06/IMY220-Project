@@ -2,7 +2,7 @@ import Home from "./pages/homePage.jsx";
 import Post from "./pages/postPage.jsx";
 import Search from "./pages/searchPage.jsx";
 import Profile from "./pages/profilePage.jsx";
-import Splash from "./pages/splashPage.jsx";
+import Splash from "./pages/SplashPage.jsx";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

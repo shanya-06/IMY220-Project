@@ -1,5 +1,5 @@
-import SignIn from "../components/signIn.jsx";
-import SignUp from "../components/signUp.jsx";
+import SignIn from "../components/SignIn.jsx";
+import SignUp from "../components/SignUp.jsx";
 
 function splashpage(){
     return(
