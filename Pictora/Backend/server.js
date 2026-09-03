@@ -2,8 +2,8 @@ import express from "express";
 const app = express();
 app.use(express.json());
 
-app.post("/api/signup", (req, res) => {
-  res.json({ message: "Signup successful (dummy)", user: req.body });
+app.post("/", (req, res) => {
+  res.json({ message: "Signup successful", user: req.body });
 });
 
-app.listen(5000, () => console.log("Backend running on port 5000"));
+app.listen(3000, () => console.log("Backend running on port 3000"));
