@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  frontend:
+    build: ./frontend
+    container_name: pictora-frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+  backend:
+    build: ./backend
+    container_name: pictora-backend
+    ports:
+      - "5000:5000"

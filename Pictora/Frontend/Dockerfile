@@ -1,5 +1,5 @@
 # Use Node image
-FROM node:18
+FROM node:20
 
 # Set working directory
 WORKDIR /app
@@ -15,7 +15,7 @@ COPY . .
 RUN npm run build
 
 # Expose port for preview server
-EXPOSE 5173
+EXPOSE 4173
 
 # Run preview server
 CMD ["npm", "run", "preview"]

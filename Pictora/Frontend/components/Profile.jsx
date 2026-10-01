@@ -1,7 +1,25 @@
-function Profile() {
+function Profile( {id} ) {
+
+    const profiles = [
+        {
+            id: 1,
+            name: shanya
+        },
+        {
+            id: 2,
+            name: kiara
+        }
+    ]
+
+    {const profile = profiles.filter((profile.id = id));}
+
     return (
         <div>
-            Profile Component
+
+            
+
+            <p>{profile.id}</p>
+            <p>{profile.name}</p>
         </div>
     );
 }

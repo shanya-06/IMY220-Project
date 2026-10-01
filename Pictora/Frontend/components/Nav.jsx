@@ -11,7 +11,6 @@ function Nav(){
                 <Link to="/home">Home</Link>
                 <Link to="/search">Search </Link>
                 <Link to="/profile/101">Profile</Link>
-                <Link to="/post/2">Post</Link>
             
         </nav>
     );

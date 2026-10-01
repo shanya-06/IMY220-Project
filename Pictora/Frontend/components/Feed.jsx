@@ -2,6 +2,7 @@ import { useState } from "react";
 import Post from "./Post";
 
 function Feed() {
+
     const posts = [
     {
     id: 1,
