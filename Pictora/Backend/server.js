@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const uri ="mongodb://u25061845_db_user:W070CwJx4o7yPgSQ@ac-mnxqrrb-shard-00-00.ezwitvg.mongodb.net:27017,ac-mnxqrrb-shard-00-01.ezwitvg.mongodb.net:27017,ac-mnxqrrb-shard-00-02.ezwitvg.mongodb.net:27017/?ssl=true&replicaSet=atlas-f6xmh6-shard-0&authSource=admin&appName=pictoradb"
+const uri ="mongodb://u25061845_db_user:<db password>@ac-mnxqrrb-shard-00-00.ezwitvg.mongodb.net:27017,ac-mnxqrrb-shard-00-01.ezwitvg.mongodb.net:27017,ac-mnxqrrb-shard-00-02.ezwitvg.mongodb.net:27017/?ssl=true&replicaSet=atlas-f6xmh6-shard-0&authSource=admin&appName=pictoradb"
 const client = new MongoClient(uri);
 
 let db;
