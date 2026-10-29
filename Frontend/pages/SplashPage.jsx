@@ -8,6 +8,7 @@ function SplashPage(){
             <p>Log in to to continue your story.</p>
             <p>Not a member? Sign up now to join the crew!</p>
 
+
             <SignIn />
             <Signup />
 

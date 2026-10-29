@@ -5,6 +5,8 @@ import Profile from "./pages/ProfilePage.jsx";
 import Splash from "./pages/SplashPage.jsx";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CreatePost from "./components/CreatePost.jsx";
+import PostPage from "./pages/PostPage.jsx";
 
 function App() {
     return (
@@ -15,6 +17,7 @@ function App() {
                 <Route path="/profile/:id" element={<Profile />}></Route>
                 <Route path="/post/:id" element={<Post />}></Route>
                 <Route path="/search" element={<Search />}></Route>
+                <Route path="/createpost" element={<CreatePost />} />
             </Routes>
         </BrowserRouter>
     );

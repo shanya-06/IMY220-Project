@@ -1,3 +1,4 @@
+import CreatePost from "../components/CreatePost.jsx";
 import Nav from "../components/Nav.jsx";
 import PostDetails from "../components/PostDetails.jsx";
 

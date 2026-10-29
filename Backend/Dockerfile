@@ -1,5 +1,5 @@
 # Use Node image
-FROM node:18
+FROM node:20
 
 # Set working directory
 WORKDIR /app
@@ -11,11 +11,8 @@ RUN npm install
 # Copy all source code
 COPY . .
 
-# Build the Vite app
-RUN npm run build
+# Expose backend port
+EXPOSE 5000
 
-# Expose port for preview server
-EXPOSE 5173
-
-# Run preview server
-CMD ["npm", "run", "preview"]
+# Run server
+CMD ["node", "server.js"]
