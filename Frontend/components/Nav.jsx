@@ -3,10 +3,13 @@ import "../css/nav.css";
 
 function Nav(){
 
-    const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+const savedUser = localStorage.getItem("currentUser");
+
+const currentUser =
+    savedUser ? JSON.parse(savedUser) : null;
 
     return(
-        <nav>
+        <nav className="bg-dark text-white flex justify-between items-center px-8 py-4 shadow-lg ">
             <span id="logoName">
                 <span id="logo">- logo here -</span>
                 <h2>Pictora</h2>

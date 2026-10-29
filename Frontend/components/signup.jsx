@@ -71,7 +71,7 @@ function SignUp() {
                     JSON.stringify(data.user)
                 );
 
-                navigate(`/home`)
+                navigate("/home")
             } catch (err) {
             setError("Error connecting to server");
         }

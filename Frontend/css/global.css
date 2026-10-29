@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@500;600;700&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root{
-    --beige: #F5F0E6;
-    --dark: #2C2C2C;
+    --beige:#F5F0E6;
+    --dark:#2C2C2C;
 
-    --red: #E94E4E;
-    --blue: #4E9CE9;
+    --red:#E94E4E;
+    --blue:#4E9CE9;
 
-    --yellow: #FFD65A;
-
-    --heading-font: 'Montserrat', sans-serif;
-    --body-font: 'Inter', sans-serif;
+    --yellow:#FFD65A;
 }
 
 *{
@@ -22,14 +23,12 @@
 body{
     background-color:var(--beige);
     color:var(--dark);
-
-    font-family:var(--body-font);
-
+    font-family:'Inter',sans-serif;
     min-height:100vh;
 }
 
-h1, h2, h3, h4{
-    font-family:var(--heading-font);
+h1,h2,h3,h4{
+    font-family:'Montserrat',sans-serif;
 }
 
 a{
