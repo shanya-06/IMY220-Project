@@ -1,0 +1,7 @@
+[{
+  "_id": "report1",
+  "postId": "post1",
+  "reportedBy": "user111",
+  "reason": "spam",
+  "createdAt": "2026-01-01"
+}]

@@ -1,0 +1,7 @@
+[{
+  "_id": "request1",
+  "fromUser": "user123",
+  "toUser": "user222",
+  "status": "pending",
+  "createdAt": "2026-01-01"
+}]

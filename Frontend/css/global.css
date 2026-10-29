@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@500;600;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root{
     --beige:#F5F0E6;
@@ -11,7 +9,7 @@
     --red:#E94E4E;
     --blue:#4E9CE9;
 
-    --yellow:#FFD65A;
+    --yellow:#f1d684;
 }
 
 *{

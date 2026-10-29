@@ -1,0 +1,174 @@
+[{
+  "_id": "post01",
+  "userId": "user123",
+  "imageSrc": "/images/pic.png",
+  "title": "Something!!!",
+  "description": "Pretty picture of a something",
+  "hashtags": [
+    "#something",
+    "#pretty",
+    "#prettything"
+  ],
+  "likes": 2,
+  "createdAt": 2022,
+  "hidden": false
+},
+{
+  "_id": "post02",
+  "userId": "user111",
+  "imageSrc": "/images/pic.png",
+  "title": "BEACH DAY",
+  "description": "nice beach",
+  "hashtags": [
+    "#beach"
+  ],
+  "likes": 1,
+  "createdAt": 2022,
+  "hidden": false
+},
+{
+  "_id": "post99",
+  "title": "99 red balloons",
+  "userId": "user111",
+  "description": "hello",
+  "hashtags": [
+    "#test"
+  ],
+  "hidden": false
+},
+{
+  "_id": {
+    "$oid": "6ae399a13c7b6c881de4c1f0"
+  },
+  "userId": "user222",
+  "imageSrc": "/images/mountain.png",
+  "title": "MOUNTAIN HIKE",
+  "description": "Reached the summit after a challenging morning hike.",
+  "hashtags": [
+    "#mountains",
+    "#hiking",
+    "#nature"
+  ],
+  "likes": 23,
+  "createdAt": 2026,
+  "hidden": false
+},
+{
+  "_id": {
+    "$oid": "6ae399b53c7b6c881de4c1f2"
+  },
+  "userId": "user626",
+  "imageSrc": "/images/coffee.png",
+  "title": "COFFEE BREAK",
+  "description": "Trying a new café downtown while working on assignments.",
+  "hashtags": [
+    "#coffee",
+    "#cafe",
+    "#study"
+  ],
+  "likes": 8,
+  "createdAt": 2026,
+  "hidden": false
+},
+{
+  "_id": {
+    "$oid": "6ae399c63c7b6c881de4c1f4"
+  },
+  "userId": "user123",
+  "imageSrc": "/images/sunset.png",
+  "title": "EVENING SUNSET",
+  "description": "The colours in the sky tonight were incredible.",
+  "hashtags": [
+    "#sunset",
+    "#photography",
+    "#sky"
+  ],
+  "likes": 31,
+  "createdAt": 2026,
+  "hidden": false
+},
+{
+  "_id": {
+    "$oid": "6ae399d23c7b6c881de4c1f6"
+  },
+  "userId": "user222",
+  "imageSrc": "/images/dog.png",
+  "title": "DOG PARK ADVENTURE",
+  "description": "Took Buddy to the park and made a few new friends.",
+  "hashtags": [
+    "#dogs",
+    "#pets",
+    "#weekend"
+  ],
+  "likes": 17,
+  "createdAt": 2026,
+  "hidden": false
+},
+{
+  "_id": {
+    "$oid": "6ae399de3c7b6c881de4c1f8"
+  },
+  "userId": "user999",
+  "imageSrc": "/images/city.png",
+  "title": "CITY LIGHTS",
+  "description": "Exploring Johannesburg after dark.",
+  "hashtags": [
+    "#citylife",
+    "#nightphotography",
+    "#urban"
+  ],
+  "likes": 19,
+  "createdAt": 2026,
+  "hidden": false
+},
+{
+  "_id": {
+    "$oid": "6ae399f13c7b6c881de4c1fa"
+  },
+  "userId": "user111",
+  "imageSrc": "/images/food.png",
+  "title": "LUNCH SPECIAL",
+  "description": "Tried a new burger place near campus today.",
+  "hashtags": [
+    "#food",
+    "#burger",
+    "#foodie"
+  ],
+  "likes": 12,
+  "createdAt": 2026,
+  "hidden": false
+},
+{
+  "_id": {
+    "$oid": "6ae39a033c7b6c881de4c1fc"
+  },
+  "userId": "user222",
+  "imageSrc": "/images/library.png",
+  "title": "STUDY SESSION",
+  "description": "Preparing for finals at the university library.",
+  "hashtags": [
+    "#study",
+    "#university",
+    "#library"
+  ],
+  "likes": 11,
+  "createdAt": 2026,
+  "hidden": false
+},
+{
+  "_id": {
+    "$oid": "6ae39a173c7b6c881de4c1fe"
+  },
+  "userId": "user123",
+  "imageSrc": "/images/lake.png",
+  "title": "WEEKEND GETAWAY",
+  "description": "Peaceful morning by the lake before heading home.",
+  "hashtags": [
+    "#lake",
+    "#travel",
+    "#relaxing"
+  ],
+  "likes": 27,
+  "createdAt": 2026,
+  "hidden": false
+}]

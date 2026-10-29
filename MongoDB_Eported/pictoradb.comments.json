@@ -1,0 +1,7 @@
+[{
+  "_id": "comment1",
+  "postId": "post1",
+  "userId": "user222",
+  "comment": "I like trains",
+  "createdAt": 2023
+}]

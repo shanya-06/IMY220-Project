@@ -1,14 +1,4 @@
-nav{
-    display: flex;
-    justify-content: space-between;
-    background-color: beige;
-    padding: 5px;
-}
 
-#logoName{
-    margin-left: 10px;
-    display: flex;
-}
 
 nav{
     display:flex;
@@ -35,12 +25,3 @@ nav a:hover{
     color:#FFD65A;
 }
 
-#logoName{
-    display:flex;
-    align-items:center;
-    gap:1rem;
-}
-
-#logo{
-    color:#FFD65A;
-}

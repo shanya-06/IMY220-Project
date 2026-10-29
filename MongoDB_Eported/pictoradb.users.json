@@ -1,0 +1,116 @@
+[{
+  "_id": "user123",
+  "email": "testuser@gmail.com",
+  "username": "testUsername@1",
+  "password": "password@123",
+  "bio": "Photography lover",
+  "pronouns": "she/her",
+  "fName": "Jhon",
+  "sName": "Doe",
+  "profileImage": "/images/profile.jpg",
+  "friends": [
+    "user111",
+    "user222"
+  ],
+  "role": "user",
+  "createdAt": "2026-10-01"
+},
+{
+  "_id": "user111",
+  "email": "user1@gmail.com",
+  "username": "username@1",
+  "password": "password@1",
+  "bio": "Updated Bio",
+  "pronouns": "she/her",
+  "fName": "Sarah",
+  "sName": "Smith",
+  "profileImage": "/images/profile.jpg",
+  "friends": [
+    "user123",
+    "user222"
+  ],
+  "role": "user",
+  "createdAt": "2026-10-01"
+},
+{
+  "_id": "user222",
+  "email": "user2@gmail.com",
+  "username": "username@2",
+  "password": "password@2",
+  "bio": "Photography lover",
+  "pronouns": "she/her",
+  "fName": "Sam",
+  "sName": "Jacob",
+  "profileImage": "/images/profile.jpg",
+  "friends": [
+    "user123"
+  ],
+  "role": "user",
+  "createdAt": "2026-10-01"
+},
+{
+  "_id": "admin1",
+  "email": "admin1@gmail.com",
+  "username": "username@admin1",
+  "password": "password@admin1",
+  "bio": "Photography lover",
+  "pronouns": "she/her",
+  "fName": "admin",
+  "sName": "admin",
+  "profileImage": "/images/profile.jpg",
+  "friends": [],
+  "role": "admin",
+  "createdAt": "2026-10-01"
+},
+{
+  "_id": "user999",
+  "email": "test@test.com",
+  "username": "testUser",
+  "password": "test1234",
+  "fName": "Test",
+  "sName": "User",
+  "friends": [],
+  "role": "user"
+},
+{
+  "_id": "user626",
+  "email": "626@gmail.com",
+  "username": "User@626",
+  "password": "password@626",
+  "fName": "Name",
+  "sName": "Surname",
+  "friends": [
+    "user123",
+    "user111"
+  ],
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "6ae39e917cf0bf60e3ebd7af"
+  },
+  "email": "kiara@gmail.com",
+  "username": "Kiara@2",
+  "password": "Kiara@2"
+},
+{
+  "_id": "user001",
+  "email": "shanya@gmail.com",
+  "username": "Shanya@1",
+  "password": "Shanya@1",
+  "fName": "Shanya",
+  "sName": "Nair",
+  "friends": [
+    "user123",
+    "user111"
+  ],
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "6ae3a44e7cf0bf60e3ebd7b0"
+  },
+  "email": "A@gmail.com",
+  "username": "Ashreya@1",
+  "password": "Ashreya@1"
+}]

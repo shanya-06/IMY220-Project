@@ -12,7 +12,7 @@ export default {
         dark: "#2C2C2C",
         red: "#E94E4E",
         blue: "#4E9CE9",
-        yellow: "#FFD65A",
+        yellow: "#eccf78",
       },
 
       fontFamily: {

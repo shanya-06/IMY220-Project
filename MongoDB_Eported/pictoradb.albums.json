@@ -1,0 +1,21 @@
+[{
+  "_id": "album1",
+  "name": "album1",
+  "userId": "user123",
+  "posts": [
+    "post01",
+    "post02"
+  ],
+  "hashtags": [
+    "#holiday",
+    "#travel"
+  ],
+  "description": "My trip to Cape Town",
+  "createdAt": 2023
+},
+{
+  "_id": "album99",
+  "name": "Testing Album",
+  "userId": "user111",
+  "posts": []
+}]
